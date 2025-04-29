@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Produtos - Afiliado Mercado Livre</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meus Produtos Recomendados</h1>
+        <p>As melhores ofertas do Mercado Livre</p>
+    </header>
+    
+    <nav>
+        <button id="btnEditar">Editar Produtos</button>
+        <div id="editPanel" class="hidden">
+            <textarea id="produtosData" rows="10" cols="50"></textarea>
+            <button id="btnSalvar">Salvar Alterações</button>
+        </div>
+    </nav>
+    
+    <main>
+        <div class="filtros">
+            <input type="text" id="busca" placeholder="Buscar produtos...">
+            <select id="categoria">
+                <option value="todos">Todas Categorias</option>
+                <!-- Categorias serão preenchidas pelo JavaScript -->
+            </select>
+        </div>
+        
+        <div id="produtosContainer" class="produtos-grid">
+            <!-- Produtos serão carregados aqui pelo JavaScript -->
+        </div>
+    </main>
+    
+    <footer>
+        <p>Afiliado Mercado Livre - Todos os direitos reservados</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
