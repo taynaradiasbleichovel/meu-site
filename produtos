@@ -1,0 +1,26 @@
+[
+    {
+        "nome": "Smartphone XYZ",
+        "descricao": "Último modelo com câmera de 48MP",
+        "preco": 1599.90,
+        "categoria": "celulares",
+        "imagem": "celular.jpg",
+        "link": "https://mercadolivre.com.br/link-de-afiliado"
+    },
+    {
+        "nome": "Notebook Ultrafino",
+        "descricao": "Processador i7, 16GB RAM, SSD 512GB",
+        "preco": 4299.00,
+        "categoria": "informatica",
+        "imagem": "notebook.jpg",
+        "link": "https://mercadolivre.com.br/link-de-afiliado-2"
+    },
+    {
+        "nome": "Fone Bluetooth",
+        "descricao": "Cancelamento de ruído, 30h bateria",
+        "preco": 299.90,
+        "categoria": "acessorios",
+        "imagem": "fone.jpg",
+        "link": "https://mercadolivre.com.br/link-de-afiliado-3"
+    }
+]
